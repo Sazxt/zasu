@@ -81,7 +81,7 @@ class obf:
 			self.num.append(civ/2/2)
 		return self.num
 
-	def obfuscate(self,file=None,NOTC = "\n\n\t\tOBFUSCATE By SAZXT ft Angung\n\t\tID : %s\n\t\tKEY : %s\n\n",out = ["",False]):
+	def obfuscate(self,file=None,NOTC = "\n\n\t\tOBFUSCATE By SAZXT ft Agung\n\t\tID : %s\n\t\tKEY : %s\n\n",out = ["",False]):
 		fov = marshal.dumps(compile(open(file).read(),"zasu","exec"))
 		MAC = self.slice(fov)
 		if out[1]:
